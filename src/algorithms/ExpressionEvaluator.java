@@ -5,10 +5,6 @@ import java.util.Deque;
 import java.util.Locale;
 import java.util.Scanner;
 
-/**
- * *
- * @autor Teste Cristiano
- */
 public class ExpressionEvaluator {
 
     private static String toPostfix(String expression) {
