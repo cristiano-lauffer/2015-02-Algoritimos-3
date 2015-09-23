@@ -22,14 +22,14 @@ public class Main {
         Celula cel4 = new Celula("a4", "5*10+35", "10");
         Celula cel5 = new Celula("a1", "5*10+35", "10");
 
-        System.out.println(retornarMarior(cel1, cel2));
-        System.out.println(retornarMarior(cel2, cel3));
-        System.out.println(retornarMarior(cel4, cel3));
-        System.out.println(retornarMarior(cel5, cel3));
-        System.out.println(retornarMarior(cel1, cel5));
+        System.out.println(retornarMaior(cel1, cel2));
+        System.out.println(retornarMaior(cel2, cel3));
+        System.out.println(retornarMaior(cel4, cel3));
+        System.out.println(retornarMaior(cel5, cel3));
+        System.out.println(retornarMaior(cel1, cel5));
     }
 
-    private static String retornarMarior(Celula celA, Celula celB) {
+    private static String retornarMaior(Celula celA, Celula celB) {
 
         if (celA.compareTo(celB) == 0) {
             return celA.getIndice() + " igual a " + celB.getIndice();
