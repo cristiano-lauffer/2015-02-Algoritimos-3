@@ -7,7 +7,7 @@ package implementacoes;
 
 /**
  *
- * @author Cristiano
+ * @author Cristiano Lauffer
  */
 public class Celula implements Comparable<Celula> {
 
